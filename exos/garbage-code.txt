@@ -1,0 +1,29 @@
+=============  HomePanel.java Start ====================
+
+Line 1551 ::
+
+			/*for (Users aUser : uD.fetch(UsersFetch.FETCH_ALL, null)) {
+				dtm.addRow(new Object[] { aUser.getFirst_name() + " " + aUser.getLast_name(), aUser.getUsername(),
+						aUser.getEmail_add(), aUser.getType(), aUser.getPhone_no(), aUser.getDob().toString(),
+						aUser.getAdded_date().toString() });
+			}*/
+
+Line 1557  ::
+
+			/*for (int i = 0; i < table.getColumnCount(); i++) {
+				table.getColumnModel().getColumn(i).setCellRenderer(dtr);
+			}*/
+
+Line 1574  ::
+			
+			/*for (Users aUser : uD.fetch(UsersFetch.FETCH_ALL, null)) {
+				dtm.addRow(new Object[] { aUser.getFirst_name() + " " + aUser.getLast_name(), aUser.getUsername(),
+						aUser.getEmail_add(), aUser.getType() });
+			}*/
+
+Line 1579  ::
+			/*for (int i = 0; i < table.getColumnCount(); i++) {
+				table.getColumnModel().getColumn(i).setCellRenderer(dtr);
+			}*/
+
+=============  HomePanel.java End   ====================

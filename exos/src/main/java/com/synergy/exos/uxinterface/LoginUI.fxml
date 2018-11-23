@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<fx:root type="AnchorPane" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+	<children>
+		<AnchorPane prefHeight="500.0" prefWidth="900.0" style="-fx-background-color: #B0C4DE;">
+			<children>
+				<AnchorPane layoutX="542.0" layoutY="49.0" prefHeight="402.0" prefWidth="321.0" style="-fx-background-color: #4682B4;">
+					<children>
+						<JFXTextField focusColor="#6fa76b" layoutX="32.0" layoutY="132.0" maxWidth="258.0" minWidth="258.0" prefHeight="40.0" prefWidth="250.0" promptText="Username" unFocusColor="#eec8c8" />
+						<JFXPasswordField focusColor="#6fa76b" layoutX="32.0" layoutY="193.0" maxWidth="258.0" minWidth="258.0" prefHeight="40.0" prefWidth="250.0" promptText="Password" unFocusColor="#eec8c8" />
+						<JFXButton layoutX="36.0" layoutY="262.0" prefHeight="40.0" prefWidth="250.0" style="-fx-background-color: #B0C4DE;" text="Login" textFill="WHITE">
+							<font>
+								<Font size="20.0" />
+							</font>
+						</JFXButton>
+						<Label layoutX="103.0" layoutY="39.0" prefHeight="53.0" prefWidth="115.0" text="Sign In" textFill="#c6c6c6">
+							<font>
+								<Font size="36.0" />
+							</font>
+						</Label>
+						<Hyperlink layoutX="89.0" layoutY="327.0" text="Forgot Password?" textFill="LIGHTSTEELBLUE" underline="true">
+							<font>
+								<Font size="17.0" />
+							</font>
+						</Hyperlink>
+					</children>
+				</AnchorPane>
+				<ImageView fitHeight="500.0" fitWidth="574.0" opacity="0.47" pickOnBounds="true" preserveRatio="true">
+					<image>
+						<Image url="@images/background.jpg" />
+					</image>
+				</ImageView>
+				<ImageView fitHeight="169.0" fitWidth="227.0" layoutX="166.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+					<image>
+						<Image url="@images/logo.png" />
+					</image>
+				</ImageView>
+				<Label layoutX="60.0" layoutY="195.0" prefHeight="73.0" prefWidth="381.0" text="Library Management System" textFill="LIGHTSTEELBLUE">
+					<font>
+						<Font size="30.0" />
+					</font>
+				</Label>
+				<Label layoutX="67.0" layoutY="250.0" prefHeight="53.0" prefWidth="367.0" text="Read the books &amp; leave the ledgers to us" textFill="LIGHTSTEELBLUE">
+					<font>
+						<Font size="20.0" />
+					</font>
+				</Label>
+				<Label layoutX="159.0" layoutY="342.0" prefHeight="21.0" prefWidth="182.0" text="Not already member?" textFill="LIGHTSTEELBLUE">
+					<font>
+						<Font size="19.0" />
+					</font>
+				</Label>
+				<JFXButton layoutX="172.0" layoutY="382.0" prefHeight="40.0" prefWidth="157.0" style="-fx-background-color: #B0C4DE;" text="Sign Up" textFill="WHITE">
+					<font>
+						<Font size="21.0" />
+					</font>
+				</JFXButton>
+				<Label layoutX="14.0" text="x" textFill="LIGHTSTEELBLUE">
+					<font>
+						<Font name="Arial Rounded MT Bold" size="42.0" />
+					</font>
+				</Label>
+			</children>
+		</AnchorPane>
+	</children>
+</fx:root>
