@@ -16,9 +16,6 @@ Tools Used:
 7. CriteriaQuery and ParameterizedExpression
 
 I know, its such a generic thing to do, library management system. 
-Well what can I say, I just thought maybe it will be cool if i did generic stuff but put a lot of effort on it.
-
-The result was good but I wont get back the time that i wasted on this.
-If anyone sees this and bothers to use it, please make your own judgement.
+But I was handed me a lemon of a project and I thought I would make a lemonade out of it.
 
 Create a Database called exos on your xampp mysql dbms.
