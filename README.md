@@ -1,4 +1,4 @@
-# ExOs-Library-Management-System
+# ExOs
 ExOs is a library management system is a maven project developed using Java Hibernate and Spring framework. UI was created with a modern minimalistic design using Swing API.
 
 Key Features:
