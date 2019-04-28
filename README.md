@@ -19,3 +19,13 @@ I know, its such a generic thing to do, library management system.
 But I was handed me a lemon of a project and I thought I would make a lemonade out of it.
 
 Create a Database called exos on your xampp mysql dbms.
+
+Screenshots:
+
+![alt text](https://i.imgur.com/zaEMQSi.jpg)
+![alt text](https://i.imgur.com/gI84yjZ.jpg)
+![alt text](https://i.imgur.com/2zJmN43.jpg)
+![alt text](https://i.imgur.com/oQogcwO.jpg)
+![alt text](https://i.imgur.com/tm36DoL.jpg)
+
+
